@@ -1,0 +1,14 @@
+type: test_type
+name: Test Type
+description: 'Custom content type'
+help: ''
+new_revision: false
+display_submitted: true
+preview_mode: 1
+status: true
+langcode: en
+dependencies:
+  enforced:
+    module:
+      - demo
+      

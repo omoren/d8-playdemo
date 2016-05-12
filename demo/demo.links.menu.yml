@@ -1,0 +1,6 @@
+demo.admin:
+  title: 'Demo Settings'
+  description: 'Demo module settings '
+  parent: 'system.admin.config_development'
+  route_name: demo.content
+  weight: 100

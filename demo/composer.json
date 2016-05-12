@@ -1,0 +1,5 @@
+{
+    "name": "drupal/demo",
+    "description": "This is a composer.json file for the demo module.",
+    "type": "drupal-module",
+}

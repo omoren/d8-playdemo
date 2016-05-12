@@ -1,0 +1,7 @@
+demo.content:
+  path: '/demo'
+  defaults:
+    _controller: '\Drupal\demo\Controller\DemoController::content'
+    _title: 'Hello Demo'
+  requirements:
+    _permission: 'access content'

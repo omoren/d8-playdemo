@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - demo
+  theme:
+    - bartik
+id: demoblock
+theme: bartik
+region: featured_top
+weight: -8
+provider: null
+plugin: demo_block
+settings:
+  id: demo_block
+  label: 'Demo block'
+  provider: demo
+  label_display: visible
+  name: Sakuragi
+visibility: {  }
