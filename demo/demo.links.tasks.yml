@@ -1,0 +1,4 @@
+demo.user_permission
+  title: User Permission List
+  route_name: demo.user.user_permission
+  base_route: entity.user.collection

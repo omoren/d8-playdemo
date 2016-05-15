@@ -5,3 +5,17 @@ demo.content:
     _title: 'Hello Demo'
   requirements:
     _permission: 'access content'
+demo.demo_form:
+  path: '/demo/demo-form'
+  defaults:
+    _form: 'Drupal\demo\Form\DemoForm'
+    _title: 'Demo Form'
+  requirements:
+    _permission: 'access content'
+demo.contact_form:
+  path: '/demo/contact-form'
+  defaults:
+    _form: 'Drupal\demo\Form\ContactForm'
+    _title: 'Add Contact'
+  requirements:
+    _access: 'TRUE'

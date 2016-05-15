@@ -1,0 +1,22 @@
+<?php
+
+function demo_schema() {
+  $schema['customer_messages'] = array(
+    'fields' => array(
+      'id'=>array('type'=>'serial', 'not null' => TRUE, ),
+      'name' => array('type' => 'varchar', 'length'=> 100, 'not null' => TRUE),
+      'message' => array('type' => 'varchar', 'length' => 255, 'not null' => TRUE)
+    ),
+    'primary key' => array('id'),
+  );
+
+  return $schema;
+}
+
+function demo_install() {
+
+  //prevent users from deleting custom content type
+  $locked = Drupal::state()->get('node.type.locked');
+  $locked['test_type'] = 'test_type';
+  Drupal::state()->set('node.type.locked', $locked);
+}
